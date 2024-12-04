@@ -1,11 +1,24 @@
 .box {
-    background-color:burlywood;
-    margin-bottom: 8px;
+    background-color:#c7c2c2;
     height: 225px;
     width:250px;
     border-radius: 20px;
     padding:8px;
     text-align: center;
+    margin: 8px auto;
+}
+
+#home {
+    width: 150px;
+    height: 100px;
+    background-color: #c7c2c2;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#home #link {
+
 }
 
 body {
@@ -27,7 +40,8 @@ a {
     border-radius: 20px;
     width: 750px;
     height: 1200px;
-    background-color:burlywood;
+    margin: auto auto;
+    background-color:#f2f2f2;
     padding: 12px;
 }
 
@@ -40,4 +54,13 @@ a {
 
 .recipe-box .title_plus_image {
     text-align: center;
+}
+
+.content {
+    width: 800px;
+    background-color: #f2f2f2;
+    margin: auto auto;
+    text-align: center;
+    border-radius: 20px;
+    padding:12px;
 }
