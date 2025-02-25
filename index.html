@@ -1,31 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Homepage</title>
+        <title>Simple Recipes</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 class="h1_title">Odin Recipes</h1>
+        <!-- Navigation bar 
+         Logo on the left
+         Title of the website: Best recipes 
+         Some links to other pages can be non existent: Register, Login, About us, Recipes, Recipe of the day
+         -->
+        <div class="navbar">
+            <div class="left">
+                <img src="./images/logo.png">
+                <h1>SIMPLE RECIPES</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href="">Recipe of the day</a></li>
+                    <li><a href="">Register</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    
+         <!-- Content section
+          About this website: We are the best recipe website ...
+          picture of recipe
+          link to about us to read more
+          
+          add some recipes here 
+          Title of recipe
+          picture of recipe 
+          description of recipe
+          
+          add a quote about food
+          
+          call to action: register for an account here NOW..-->
+        
+          <div class="header-content">
+            <div class="left-side">
+                <h1>Quick & Easy Recipes for Everyone</h1>
+                <p>Discover simple, delicious recipes made with everyday ingredients. Whether you're a beginner or a seasoned cook, find meals that fit your lifestyle—fast, fresh, and fuss-free! 🍽️✨</p>
+                <button class="recipe-button">Checkout Recipes</button>
+            </div>
+            <div class="right-side">
+                <img src="./images/hero_picture.jpg">
+            </div>
+          </div>
 
-        <div class="content">
-
-        <div class="box">
-            <a href="recipes/tortilla_de_patatas.html"><h2>Tortilla De Patatas</h2></a>
-            <img src="images/tortilla_de_patatas.jpeg" alt="picture of tortilla_de_patatas">
+          <h1 class="information">Popular Recipes</h1>
+          <div class="content1">
+            <div class="box">
+                <a href="./recipes/beef_stir_fry.html"><img class="image" src="images/beef_stir_fry.jpeg"></a>
+                <p>Quick and easy beef stir-fry recipe, make this on a busy night.</p>
+            </div>
+    
+            <div class="box">
+                <a href="./recipes/fried_chicken.html"><img class="image" src="./images/friedchicken.jpeg"></a>
+                <p>This is the only crispy fried chicken recipe you'll ever need.</p>
+            </div>
+    
+            <div class="box">
+                <a href="./recipes/tortilla_de_patatas.html"><img class="image" src="./images/tortilla_de_patatas.jpeg"></a>
+                <p>Tortilla de patatas, One of my favorite foods, you can't go wrong with this.</p>
+            </div>            
         </div>
 
-        <div class="box">
-            <a href="recipes/fried_chicken.html"><h2>Fried chicken</h2></a>
-            <img src="images/friedchicken.jpeg" alt="picture of friedchicken">
+        <div class="quote-section">
+            <div class="quote-block">
+            <div class="quote">
+                <blockquote>"We all eat, and it would be a sad waste of opportunity to eat badly."<blockquote>
+                    <p>- Anna Thomas</p>
+            </div>
+            </div>
         </div>
 
-        <div class="box">
-            <a href="recipes/beef_stir_fry.html"><h2>Beef Stir-Fry</h2></a>
-            <img src="images/beef_stir_fry.jpeg" alt="picture of beef Stir-Fry">
+        <div class="call-to-action">
+
+            <div class="call-box">
+                <div class="text">
+                <h2>Join the Recipe Club!</h2>
+                <p>Sign up to save your favorite recipes and discover new ones!</p>
+                </div>
+                <button class="button-sign-up">Register Now</button>
+            </div>
+    
+        </div>
+    
+        <div class="footer">
+            <div class="logo">
+                <img src="./images/logo.png">
+                <h1>SIMPLE RECIPES</h1>
+            </div>
+            
         </div>
 
-    </div>
     </body>
 </html>
