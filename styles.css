@@ -199,3 +199,23 @@ blockquote {
     width:125px;
     height: 125px;
 }
+
+/* recipe page */
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.recipe-container img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.test {
+    width: 1000px;
+}
